@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarBucks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header header-mobile scrolled">
+        <div class="container">
+          <a href="#">
+            <img class="header-logo" src="images/logo.svg" alt="Starbucks" />
+          </a>
+
+          <nav class="header-burger">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </nav>
+
+          <div class="header-mobile-menu">
+            <ul>
+              <li><a href="#main">Main</a></li>
+              <li><a href="#about">We make</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <header class="header header-desktop">
+        <div class="container">
+          <a href="#">
+            <img class="header-logo" src="images/logo.svg" alt="Starbucks" />
+          </a>
+
+          <ul class="header-menu">
+            <li><a href="#products">Products</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <section id="main" class="intro">
+        <div class="container">
+          <div class="intro-image-wrapper">
+            <div class="intro-image">
+              <div class="decor-line"></div>
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="images/hero-cup-desktop.png"
+                />
+                <img
+                  class="intro-cup"
+                  src="images/hero-cup.png"
+                  alt="Feature"
+                />
+              </picture>
+              <div class="intro-label">
+                <picture>
+                  <source
+                    media="(min-width: 1024px)"
+                    srcset="images/label-hero-desktop.png"
+                  />
+                  <img src="images/label-hero.png" alt="Feature" />
+                </picture>
+                <img
+                  class="intro-label-mobile"
+                  src="images/label-hero.png"
+                  alt="Label"
+                />
+                <img
+                  class="intro-label-mobile"
+                  src="images/icon-plus.png"
+                  alt="Plus"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="intro-information">
+            <div class="heading-inner">
+              <span class="light"></span>
+              <h2 class="heading">
+                New Cafe<br />
+                by <span>StarBucks</span>
+              </h2>
+            </div>
+
+            <p class="intro-description">
+              Have time to buy the most harmonious drinks in the new Starbucks
+              coffee and don't forget about the discount!
+            </p>
+
+            <div class="intro-buttons">
+              <a href="#products" class="button">Select a coffee</a>
+              <a href="#events" class="button button-transparent">More</a>
+            </div>
+
+            <div class="intro-statistics-group">
+              <div class="intro-statistics-unit">
+                <p>9k<span>+</span></p>
+                <p>Premium Users</p>
+              </div>
+
+              <div class="intro-statistics-unit">
+                <p>2k<span>+</span></p>
+                <p>Happy Customer</p>
+              </div>
+
+              <div class="intro-statistics-unit">
+                <p>28<span>+</span></p>
+                <p>Awards Winning</p>
+              </div>
+
+              <span class="light"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="achievments">
+        <div class="container">
+          <div class="achievments-group">
+            <div class="label">
+              <span>WE<br />HAVE</span>
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="images/label-1-desktop.png"
+                />
+                <img src="images/label-1.png" alt="Label" />
+              </picture>
+            </div>
+            <div class="achievements-unit">
+              <div class="achievements-unit-image">
+                <img src="images/achievment-1.png" alt="Achievment" />
+              </div>
+
+              <h2>Tasty</h2>
+              <p>
+                We have the most<br />
+                delicious coffee
+              </p>
+            </div>
+
+            <div class="achievements-unit">
+              <div class="achievements-unit-image">
+                <img src="images/achievment-2.png" alt="Achievment" />
+              </div>
+
+              <h2>Fast</h2>
+              <p>
+                Our cafe will serve you<br />
+                quickly
+              </p>
+            </div>
+
+            <div class="achievements-unit">
+              <div class="achievements-unit-image">
+                <img src="images/achievment-3.png" alt="Achievment" />
+              </div>
+
+              <h2>Available</h2>
+              <p>
+                Cafe will serveat the<br />
+                most pleasant prices
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container about-container">
+        <section class="feature">
+          <div class="container">
+            <div class="feature-block">
+              <div class="decor-line"></div>
+              <div class="feature-block-image">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="images/feature-1-desktop.png"
+                  />
+                  <img src="images/feature-1.png" alt="Feature" />
+                </picture>
+              </div>
+
+              <div class="label">
+                <span>WE<br />HAVE</span>
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="images/label-1-desktop.png"
+                  />
+                  <img src="images/label-1.png" alt="Label" />
+                </picture>
+              </div>
+
+              <span class="light"></span>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="about">
+          <div class="container">
+            <h2 class="heading">We make <span>delicious</span></h2>
+            <p class="about-description">
+              Only in 2021 we have made more than 100,000 orders for you, your
+              loved ones, all of you, and in 2022 we are ready to destroy the
+              market
+            </p>
+
+            <div class="about-video">
+              <video id="aboutVideo" controls poster="images/about.png">
+                <source src="video.mp4" type="video/mp4" />
+                Not Supporting
+              </video>
+
+              <button class="about-video-play" id="playBtn">
+                <span></span>Cooking Process
+              </button>
+
+              <span class="light"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="products" id="products">
+        <div class="container">
+          <span class="light light-top"></span>
+          <div class="products-description">
+            <h2 class="heading">New Our <span>Products</span></h2>
+            <p>
+              Have time to buy the most harmonious drinks in the new Starbucks
+              coffee and don't forget about the discount! Starbucks coffee and
+              don't forget about the discount!
+            </p>
+          </div>
+
+          <div class="swiper products-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <span class="light"></span>
+                <div class="products-unit">
+                  <div class="products-unit-image">
+                    <img src="images/product-1.png" alt="Starbucks Cup" />
+                  </div>
+
+                  <h3 class="products-unit-heading">Cappuccino</h3>
+                  <p class="products-unit-description">
+                    Our cafe will serve you quickly
+                  </p>
+
+                  <div class="products-unit-details">
+                    <span class="products-unit-price">7,45$</span>
+                    <span class="products-unit-capacity">330 ml</span>
+                  </div>
+
+                  <button class="button" id="productBuy">Buy Product</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="products-unit">
+                  <div class="products-unit-image">
+                    <img src="images/product-2.png" alt="Starbucks Cup" />
+                  </div>
+
+                  <h3 class="products-unit-heading">Fast</h3>
+                  <p class="products-unit-description">
+                    Our cafe will serve you quickly
+                  </p>
+
+                  <div class="products-unit-details">
+                    <span class="products-unit-price">7,45$</span>
+                    <span class="products-unit-capacity">330 ml</span>
+                  </div>
+
+                  <button class="button" id="productBuy">Buy Product</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="products-unit">
+                  <div class="products-unit-image">
+                    <img src="images/product-3.png" alt="Starbucks Cup" />
+                  </div>
+
+                  <h3 class="products-unit-heading">Fast</h3>
+                  <p class="products-unit-description">
+                    Our cafe will serve you quickly
+                  </p>
+
+                  <div class="products-unit-details">
+                    <span class="products-unit-price">7,45$</span>
+                    <span class="products-unit-capacity">330 ml</span>
+                  </div>
+
+                  <button class="button" id="productBuy">Buy Product</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="products-unit">
+                  <div class="products-unit-image">
+                    <img src="images/product-1.png" alt="Starbucks Cup" />
+                  </div>
+
+                  <h3 class="products-unit-heading">Cappuccino</h3>
+                  <p class="products-unit-description">
+                    Our cafe will serve you quickly
+                  </p>
+
+                  <div class="products-unit-details">
+                    <span class="products-unit-price">7,45$</span>
+                    <span class="products-unit-capacity">330 ml</span>
+                  </div>
+
+                  <button class="button" id="productBuy">Buy Product</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <span class="light"></span>
+                <div class="products-unit">
+                  <div class="products-unit-image">
+                    <img src="images/product-1.png" alt="Starbucks Cup" />
+                  </div>
+
+                  <h3 class="products-unit-heading">Cappuccino</h3>
+                  <p class="products-unit-description">
+                    Our cafe will serve you quickly
+                  </p>
+
+                  <div class="products-unit-details">
+                    <span class="products-unit-price">7,45$</span>
+                    <span class="products-unit-capacity">330 ml</span>
+                  </div>
+
+                  <button class="button" id="productBuy">Buy Product</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="products-unit">
+                  <div class="products-unit-image">
+                    <img src="images/product-2.png" alt="Starbucks Cup" />
+                  </div>
+
+                  <h3 class="products-unit-heading">Fast</h3>
+                  <p class="products-unit-description">
+                    Our cafe will serve you quickly
+                  </p>
+
+                  <div class="products-unit-details">
+                    <span class="products-unit-price">7,45$</span>
+                    <span class="products-unit-capacity">330 ml</span>
+                  </div>
+
+                  <button class="button" id="productBuy">Buy Product</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="products-unit">
+                  <div class="products-unit-image">
+                    <img src="images/product-3.png" alt="Starbucks Cup" />
+                  </div>
+
+                  <h3 class="products-unit-heading">Fast</h3>
+                  <p class="products-unit-description">
+                    Our cafe will serve you quickly
+                  </p>
+
+                  <div class="products-unit-details">
+                    <span class="products-unit-price">7,45$</span>
+                    <span class="products-unit-capacity">330 ml</span>
+                  </div>
+
+                  <button class="button" id="productBuy">Buy Product</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="8"
+                viewBox="0 0 25 8"
+                fill="none"
+              >
+                <path
+                  d="M0.495728 3.1549C0.22194 3.1549 -9.14931e-06 3.37685 -9.14931e-06 3.65063C-9.14931e-06 3.92442 0.22194 4.14637 0.495728 4.14637V3.1549ZM23.9806 4.00117C24.1742 3.80758 24.1742 3.49369 23.9806 3.3001L20.8258 0.145247C20.6322 -0.0483501 20.3183 -0.0483501 20.1247 0.145247C19.9311 0.338844 19.9311 0.652727 20.1247 0.846325L22.929 3.65063L20.1247 6.45494C19.9311 6.64854 19.9311 6.96243 20.1247 7.15602C20.3183 7.34962 20.6322 7.34962 20.8258 7.15602L23.9806 4.00117ZM0.495728 4.14637H23.6301V3.1549H0.495728V4.14637Z"
+                  fill="url(#paint0_linear_201_153)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_201_153"
+                    x1="23.6301"
+                    y1="4.3047"
+                    x2="15.8929"
+                    y2="13.0548"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#237249" />
+                    <stop offset="1" stop-color="#35C66B" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="swiper-button-prev">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="8"
+                viewBox="0 0 25 8"
+                fill="none"
+              >
+                <path
+                  d="M23.6301 3.1549C23.9039 3.1549 24.1259 3.37685 24.1259 3.65063C24.1259 3.92442 23.9039 4.14637 23.6301 4.14637V3.1549ZM0.14521 4.00117C-0.0483875 3.80758 -0.0483875 3.49369 0.14521 3.3001L3.30006 0.145247C3.49366 -0.0483501 3.80754 -0.0483501 4.00114 0.145247C4.19473 0.338844 4.19473 0.652727 4.00114 0.846325L1.19683 3.65063L4.00114 6.45494C4.19473 6.64854 4.19473 6.96243 4.00114 7.15602C3.80754 7.34962 3.49366 7.34962 3.30006 7.15602L0.14521 4.00117ZM23.6301 4.14637H0.495749V3.1549H23.6301V4.14637Z"
+                  fill="url(#paint0_linear_201_243)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_201_243"
+                    x1="0.495747"
+                    y1="4.3047"
+                    x2="8.23296"
+                    y2="13.0548"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#237249" />
+                    <stop offset="1" stop-color="#35C66B" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="events" id="events">
+        <div class="container">
+          <div class="decor-line"></div>
+          <div class="events-description-wrapper">
+            <h2 class="heading">Our New <span>Events</span></h2>
+
+            <p class="events-description">
+              Only in 2021 we have made more than 100,000 orders for you, your
+              loved ones, all of you, and in 2022 we are ready to destroy the
+              market
+            </p>
+          </div>
+
+          <div class="events-slider-wrapper">
+            <button class="scroll-left-btn" disabled>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="8"
+                viewBox="0 0 25 8"
+                fill="none"
+              >
+                <path
+                  d="M23.6301 3.1549C23.9039 3.1549 24.1259 3.37685 24.1259 3.65063C24.1259 3.92442 23.9039 4.14637 23.6301 4.14637V3.1549ZM0.14521 4.00117C-0.0483875 3.80758 -0.0483875 3.49369 0.14521 3.3001L3.30006 0.145247C3.49366 -0.0483501 3.80754 -0.0483501 4.00114 0.145247C4.19473 0.338844 4.19473 0.652727 4.00114 0.846325L1.19683 3.65063L4.00114 6.45494C4.19473 6.64854 4.19473 6.96243 4.00114 7.15602C3.80754 7.34962 3.49366 7.34962 3.30006 7.15602L0.14521 4.00117ZM23.6301 4.14637H0.495749V3.1549H23.6301V4.14637Z"
+                  fill="url(#paint0_linear_201_243)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_201_243"
+                    x1="0.495747"
+                    y1="4.3047"
+                    x2="8.23296"
+                    y2="13.0548"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#237249" />
+                    <stop offset="1" stop-color="#35C66B" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </button>
+
+            <div class="events-slider">
+              <div class="events-slides">
+                <div class="events-slide">
+                  <h3 class="events-slide-title">
+                    TWO COFFEE<br />
+                    FOR 1 PRICE
+                  </h3>
+                  <button class="button" id="eventsMore">More</button>
+                </div>
+
+                <div class="events-slide">
+                  <h3 class="events-slide-title">
+                    KITCHEN<br />
+                    TOUR
+                  </h3>
+                  <button class="button" id="eventsMore">More</button>
+                </div>
+              </div>
+
+              <div class="events-slides">
+                <div class="events-slide">
+                  <h3 class="events-slide-title">
+                    FREE COFFEE<br />
+                    FOR 3 COFFEE
+                  </h3>
+                  <button class="button" id="eventsMore">More</button>
+                </div>
+
+                <div class="events-slide">
+                  <h3 class="events-slide-title">OUR<br />INSTAGRAM</h3>
+                  <button class="button" id="eventsMore">More</button>
+                </div>
+
+                <div class="events-slide">
+                  <h3 class="events-slide-title">
+                    WHERE ARE YOU<br />
+                    CHOOSE US?
+                  </h3>
+                  <button class="button" id="eventsMore">More</button>
+                </div>
+              </div>
+            </div>
+
+            <span class="light"></span>
+          </div>
+        </div>
+      </section>
+
+      <div class="container contacts-container">
+        <section class="feature feature-bottom">
+          <div class="container">
+            <div class="feature-block">
+              <div class="decor-line"></div>
+              <div class="feature-block-image">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="images/feature-2-desktop.png"
+                  />
+                  <img src="images/feature-2.png" alt="Feature" />
+                </picture>
+              </div>
+
+              <div class="label">
+                <span>WE<br />HAVE</span>
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="images/label-1-desktop.png"
+                  />
+                  <img src="images/label-1.png" alt="Label" />
+                </picture>
+              </div>
+
+              <span class="light"></span>
+            </div>
+          </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+          <div class="container">
+            <h2 class="heading">
+              Our<br />
+              <span>Contacts</span>
+            </h2>
+
+            <p class="contacts-description">
+              Have time to buy the most harmonious drinks in the new Starbucks
+              coffee and don't forget about the discount!
+              <span class="light"></span>
+            </p>
+
+            <div class="contacts-information">
+              <div class="contacts-contact">
+                <img src="images/icon-instagram.png" alt="Instagram" />
+                <span><a href="https://www.instagram.com/">@supercoffee</a></span>
+              </div>
+
+              <div class="contacts-contact">
+                <img src="images/icon-phone.png" alt="Mobile phone" />
+                <span><a href="tel:+79999999999">+7-999-999-99-99</a></span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <img src="images/logo.svg" alt="StarBucks" />
+            <div class="footer-menu footer-menu-desktop">
+              <ul>
+                <li><h3 class="footer-menu-heading">Main</h3></li>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">More</a></li>
+              </ul>
+
+              <ul>
+                <li><h3 class="footer-menu-heading">We make</h3></li>
+                <li><a href="#">Process</a></li>
+              </ul>
+
+              <ul>
+                <li><h3 class="footer-menu-heading">Products</h3></li>
+                <li><a href="#">Cappuccino</a></li>
+                <li><a href="#">Fast</a></li>
+              </ul>
+
+              <ul>
+                <li><h3 class="footer-menu-heading">Events</h3></li>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">More</a></li>
+              </ul>
+
+              <ul>
+                <li><h3 class="footer-menu-heading">Contacts</h3></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Number</a></li>
+              </ul>
+            </div>
+            <button id="scrollToTop" type="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="7"
+                height="24"
+                viewBox="0 0 7 24"
+                fill="none"
+              >
+                <path
+                  d="M3.01153 22.5566C3.01153 22.818 3.22339 23.0299 3.48474 23.0299C3.74609 23.0299 3.95796 22.818 3.95796 22.5566L3.01153 22.5566ZM3.81936 0.138693C3.63455 -0.0461082 3.33493 -0.0461083 3.15013 0.138693L0.138612 3.15021C-0.0461899 3.33501 -0.0461899 3.63464 0.138612 3.81944C0.323413 4.00424 0.623036 4.00424 0.807838 3.81944L3.48474 1.14253L6.16165 3.81944C6.34645 4.00424 6.64607 4.00424 6.83087 3.81944C7.01567 3.63464 7.01567 3.33501 6.83087 3.15021L3.81936 0.138693ZM3.95796 22.5566L3.95796 0.473307L3.01153 0.473307L3.01153 22.5566L3.95796 22.5566Z"
+                  fill="url(#paint0_linear_203_38)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_203_38"
+                    x1="4.13881"
+                    y1="0.473306"
+                    x2="12.5301"
+                    y2="8.24637"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#237249" />
+                    <stop offset="1" stop-color="#35C66B" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </button>
+            <span class="light"></span>
+          </div>
+
+          <div class="footer-menu footer-menu-mobile">
+            <ul>
+              <li><h3 class="footer-menu-heading">Main</h3></li>
+              <li><a href="#">Buy</a></li>
+              <li><a href="#">More</a></li>
+            </ul>
+
+            <ul>
+              <li><h3 class="footer-menu-heading">We make</h3></li>
+              <li><a href="#">Process</a></li>
+            </ul>
+
+            <ul>
+              <li><h3 class="footer-menu-heading">Products</h3></li>
+              <li><a href="#">Cappuccino</a></li>
+              <li><a href="#">Fast</a></li>
+            </ul>
+
+            <ul>
+              <li><h3 class="footer-menu-heading">Events</h3></li>
+              <li><a href="#">Buy</a></li>
+              <li><a href="#">More</a></li>
+            </ul>
+
+            <ul>
+              <li><h3 class="footer-menu-heading">Contacts</h3></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Number</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contacts">
+            <a href="tel:+79999999999"><span class="footer-phone">+7-999-999-99-99</span></a>
+            <a href="https://www.instagram.com/"><img src="images/icon-instagram.png" alt="Instagram" /></a>
+            <span class="light"></span>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+
+  <script src="js/swiper.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
