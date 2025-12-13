@@ -83,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
         initialSlide: 1,
       },
     },
-    
   });
 });
 
@@ -121,3 +120,14 @@ window.addEventListener("scroll", () => {
     headerMobile.classList.remove("scrolled");
   }
 });
+
+(function () {
+  const img = new Image();
+  img.onload = img.onerror = function () {
+    document.documentElement.classList.add(
+      img.height === 2 ? "webp" : "no-webp"
+    );
+  };
+  img.src =
+    "data:image/webp;base64,UklGRiIAAABXRUJQVlA4TAYAAAAvAAAAAAfQ//73v/+BiOh/AAA=";
+})();
