@@ -49,14 +49,6 @@ playBtn.addEventListener("click", () => {
   video.play();
 });
 
-function setPoster() {
-  if (window.innerWidth >= 768) {
-    video.poster = "../images/about-desktop.png";
-  } else {
-    video.poster = "../images/about.png";
-  }
-}
-
 setPoster();
 window.addEventListener("resize", setPoster);
 
