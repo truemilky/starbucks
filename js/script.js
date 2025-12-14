@@ -49,9 +49,6 @@ playBtn.addEventListener("click", () => {
   video.play();
 });
 
-setPoster();
-window.addEventListener("resize", setPoster);
-
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".products-slider", {
     navigation: {
