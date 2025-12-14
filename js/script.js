@@ -51,7 +51,7 @@ playBtn.addEventListener("click", () => {
 
 function setPoster() {
   if (window.innerWidth >= 768) {
-    video.poster = "../images/about-destop.png";
+    video.poster = "../images/about-desktop.png";
   } else {
     video.poster = "../images/about.png";
   }
